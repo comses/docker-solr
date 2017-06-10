@@ -1,5 +1,5 @@
 # solr CoMSES Dockerfile
-FROM solr:6-alpine
+FROM solr:6.6-alpine
 LABEL maintainer "CoMSES Net <devops@comses.net>"
 ENV COMSES_UID=2781
 USER root
